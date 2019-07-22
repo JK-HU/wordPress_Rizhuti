@@ -385,8 +385,9 @@
  .ajax-search .search-results.is-active{display:block;visibility:visible;opacity:1}
  .ajax-search .search-results .typing-loader{margin:0 auto}
  .ajax-search .search-results:not(.is-loading) .typing-loader{display:none}
- @media (max-width:1024px){.header{height:50px;text-align:center;}
- .logo{float:none;margin:12px auto 0;padding:0;width:90px;height:18px;border-right:none;line-height: normal;}
+ @media (max-width:1024px){
+     .header{height:50px;text-align:center;}
+ .logo{float:none;margin:11px auto;padding:0;width:90px;height:18px;border-right:none;line-height: normal;}
  .logo a{display:inline-block}
  .wel{display:none}
  .wel-login{display:none}
@@ -432,6 +433,10 @@
  .m-wel-on{position:fixed;top:0;right:0;bottom:0;left:0;overflow:hidden;-webkit-transform:translateX(-80%);transform:translateX(-80%)}
  .m-wel-on .m-mask{visibility:visible;opacity:1}
  .m-wel-on .m-wel-start{right:-80%;color:#4e585a}
+    /* 搜索框 */
+    .header-search-dropdown{display: block;opacity: 1;visibility: inherit;}
+    .swiper-container{margin: 56px auto 0 auto}
+
  }
  .container_header{margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px;max-width:1280px}
  .container-white{margin:0;padding:0;width:100%;background-color:#000}
