@@ -386,7 +386,8 @@
  .ajax-search .search-results .typing-loader{margin:0 auto}
  .ajax-search .search-results:not(.is-loading) .typing-loader{display:none}
  @media (max-width:1024px){
-     .header{height:50px;text-align:center;}
+    .header{height:50px;text-align:center;}
+    .vipImg{max-width: 100%;background-size: 100% auto}
  .logo{float:none;margin:11px auto;padding:0;width:90px;height:18px;border-right:none;line-height: normal;}
  .logo a{display:inline-block}
  .wel{display:none}
@@ -462,7 +463,7 @@
  .block-item:nth-child(3) h3 {color:#fd3d00;text-shadow:0 5px 6px #151414;}
  .block-item:nth-child(3) .vip-bt {background-image: -webkit-linear-gradient(left,#f1bc37,#fadb37);}
  p.home-price {position:relative;font-size: 1.875rem;font-weight: bold;width:200px;margin: 15px auto;}
- p.home-price i {position:absolute;font-size:16px;left:60px;top:10px;}
+ p.home-price i {position:absolute;font-size:16px;left:45px;top:10px;}
  @media (max-width:768px){.block-wrapper{display:block}
  .block-wrapper .block-item{float:left;width:100%;padding: 10px 0;}
  }
