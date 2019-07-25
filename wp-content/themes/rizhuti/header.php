@@ -150,11 +150,12 @@
 
 <!-- 加载页面动画效果 -->
 <script type="text/javascript">
+	console.log('2134234');
 	$(document).ready(function() { NProgress.start(); $(window).load(function() { NProgress.done(); }); });
 	(function() {
 		$(document).ready(function() {
 			$(document).on('click','.vipImg',function() {
-				window.location.href='https://weidian.com/item.html?itemID=2582634581&spider_token=10e9';
+				window.location.href='http://spzzds.wuyiyizhan.com/user/?action=vip';
 			})
 		})
 	})();
