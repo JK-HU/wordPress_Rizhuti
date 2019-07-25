@@ -388,13 +388,15 @@
  @media (max-width:1024px){
     .header{height:50px;text-align:center;}
     .vipImg{max-width: 100% !important;background-size: 100% auto !important}
- .logo{float:none;margin:11px auto;padding:0;width:35px;height:18px;border-right:none;line-height: normal;}
+    .logoTitle{ display: block; font-size: 14px; color: #fff; position: absolute; bottom: -6px; left: -53px; width: 150px; }
+    /* .logoTitle{display: none !important;} */
+ .logo{float:none;margin:11px auto;padding:0;width:35px;height:auto;border-right:none;line-height: normal;}
  .logo a{display:inline-block}
  .wel{display:none}
  .wel-login{display:none}
  body{-webkit-transition-duration:.3s;transition-duration:.3s}
- .m-mask{position:fixed;top:0;right:0;bottom:0;left:0;z-index:90;display:block;visibility:hidden;background-color:#222;background-color:rgba(0,0,0,.7);opacity:0;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
- .m-navbar-start{position:absolute;top:0;left:0;z-index:91;display:block;padding:18px 15px 0;height:50px;color:#fff;font-size:.875rem;line-height:1;cursor:pointer;-webkit-transition-duration:.6s;transition-duration:.6s}
+ .m-mask{position:fixed;top:20px;right:0;bottom:0;left:0;z-index:90;display:block;visibility:hidden;background-color:#222;background-color:rgba(0,0,0,.7);opacity:0;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+ .m-navbar-start{position:absolute;top:20px;left:0;z-index:91;display:block;padding:18px 15px 0;height:50px;color:#fff;font-size:.875rem;line-height:1;cursor:pointer;-webkit-transition-duration:.6s;transition-duration:.6s}
  .m-wel-start{position:absolute;top:0;right:0;z-index:91;display:block;padding:18px 15px 0;height:50px;color:#fff;font-size:.875rem;line-height:1;cursor:pointer;-webkit-transition-duration:.6s;transition-duration:.6s}
  .header.white .m-navbar-start,.header.white .m-wel-start{color:#555}
  .site-navbar{position:fixed;top:0;right:100%;bottom:0;z-index:90;float:none;margin:0;padding:50px 0 0;width:80%;background-color:#fff;text-align:left;font-size:.75rem}
