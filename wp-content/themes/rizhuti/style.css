@@ -387,7 +387,8 @@
  .ajax-search .search-results:not(.is-loading) .typing-loader{display:none}
  @media (max-width:1024px){
     .header{height:auto;text-align:center;}
-    .vipImg{max-width: 100% !important;background-size: 100% auto !important}
+    .vipImg{max-width: 100% !important;background-size: 106% auto !important}
+    .focusbox #fh5co-header-subscribe{margin-top: 0 !important;}
     .logoTitle{ display: block; font-size: 14px; color: #fff; position: absolute; bottom: -6px !important; left: -53px !important; width: 150px !important; }
     /* .logoTitle{display: none !important;} */
  .logo{float:none;margin:11px auto;padding:0;width:35px;height:auto;border-right:none;line-height: normal;}
@@ -438,7 +439,7 @@
  .m-wel-on .m-wel-start{right:-80%;color:#4e585a}
     /* 搜索框 */
     .header-search-dropdown{display: block;opacity: 1;visibility: inherit;}
-    /* .swiper-container{margin: 56px auto 0 auto !important;} */
+    .swiper-container{margin: 56px auto 0 auto !important;}
 
  }
  .container_header{margin-right:auto;margin-left:auto;padding-right:15px;padding-left:15px;max-width:1280px}
@@ -661,7 +662,7 @@
  .excerpts .thumb{width:100%}
  .excerpt-c2{width:48%}
  .excerpt-c3{width:31.33333%}
- .excerpt-c4{width:23%}
+ .excerpt-c4{width:21%}
  .excerpt-c5{width:18%}
  .excerpt-c2 h2{height:auto}
  .excerpt-c2 .post-view,.excerpt-c2 time{margin-right:20px}
@@ -909,7 +910,7 @@
  }
  @media (max-width:544px){.order-row .order-item{width:48%}
  }
- .user-nav-avatar{ padding: 12px 20px; } .user-nav .downinfo {margin: 0;padding: 12px;border-bottom: 1px solid #f6f6f6;color: #1990fc;} .user-nav .downinfo span{float:left;width: 46%;padding: 5px;background-color: #e3f1fe;border-radius: 4px;margin: 0 2%;}
+ .user-nav-avatar{ padding: 12px 20px; } .user-nav .downinfo {margin: 0;padding: 12px;border-bottom: 1px solid #f6f6f6;color: #1990fc;} .user-nav .downinfo span{float:left;width: auto;padding: 5px;background-color: #e3f1fe;border-radius: 4px;margin: 0 2%;}
  .user-nav-avatar img{margin-bottom: 10px;width: 80px;height: 80px;border-radius:50%;box-shadow:0 0 10px rgba(0,0,0,.16);}
  .user-nav-avatar .btn{position:relative;padding: 4px 20px !important;border-radius:50px;}
  .user-nav-avatar a[class*=upload] input{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;cursor:pointer}
