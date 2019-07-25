@@ -38,7 +38,7 @@
 		<h1 class="logo">
 			<a href="<?php echo esc_url(home_url('/')); ?>" rel="home" style="position: relative;">
 				<img src="<?php echo _hui_img('header_logo'); ?>" style="margin-bottom:18px;">
-				<span style="display: block;font-size: 14px;color: #fff;position: absolute;bottom: -45px;left:-34px;width:150px">视频制作大叔资源网</span>
+				<span class="logoTitle" style="display: block;font-size: 14px;color: #fff;position: absolute;bottom: -28px;left:-34px;width:150px">视频制作大叔资源网</span>
 			</a>
 		</h1>
 		
@@ -130,7 +130,7 @@
 		<div class="m-wel-start"><i class="iconfont">&#xe66b;</i></div>
 		<div class="m-mask"></div>
 	</div>
-	<div id="header-search-dropdown" style="display:none" class="header-search-dropdown ajax-search is-in-navbar js-ajax-search">
+	<div id="header-search-dropdown" class="header-search-dropdown ajax-search is-in-navbar js-ajax-search">
 		<div class="container container--narrow">
 			<form class="search-form search-form--horizontal" method="get" action="<?php echo esc_url( home_url( '/' ) ) ?>">
 				<div class="search-form__input-wrap">
