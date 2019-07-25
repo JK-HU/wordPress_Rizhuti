@@ -15,9 +15,32 @@
 </head>
 <body <?php body_class(_bodyclass())  ?>>
 
+<script>
+	(function() {
+		//控制侧边栏的二维码
+		$('body').on('mouseover','#csbwfs-li-a',function(event) {
+			$('.pos_img').attr('style','display:block !important');
+			return false;
+			
+		});
+		$('body').on('mouseout','#csbwfs-li-a',function(event) {
+			$('.pos_img').attr('style','display:none !important');
+			event.stopPropagation();
+			return false;
+		});
+
+	})();
+
+</script>
+
 <header class="header">
 	<div class="container_header">
-		<h1 class="logo"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><img src="<?php echo _hui_img('header_logo'); ?>"></a></h1>
+		<h1 class="logo">
+			<a href="<?php echo esc_url(home_url('/')); ?>" rel="home" style="position: relative;">
+				<img src="<?php echo _hui_img('header_logo'); ?>">
+				<span style="display: block;font-size: 14px;color: #fff;position: absolute;bottom: 0">视频制作大叔资源网</span>
+			</a>
+		</h1>
 		
 		<?php if( is_user_logged_in() ){
 				global $current_user;
@@ -26,9 +49,21 @@
 					<?php if (vip_type() == 0) { ?>
 						<div class="wel-item"><a href="<?php echo home_url('/user?action=vip') ?>"><i class="iconfont">&#xe63f;</i> 开通VIP</a></div>
 					<?php }else{ ?>
-						<div class="wel-item"><a href="<?php echo home_url('/user?action=vip') ?>" style=" color: #fadb30; "><i class="iconfont">&#xe63f;</i> <?php echo vip_type_name() ?></a></div>
+						<div class="wel-item" ><a href="<?php echo home_url('/user?action=vip') ?>" style=" color: #fadb30; "><i class="iconfont">&#xe63f;</i> <?php echo vip_type_name() ?></a></div>
 					<?php } ?> 
-					<div class="wel-item"><a href="javascript:;" id="search"><i class="iconfont">&#xe67a;</i></a></div>
+					<div class="wel-item" style="width: 200px;height:36px;border:1px solid #999;position:relative;top:-24px;border-radius:4px">
+						<a href="javascript:;" id="search" style="height:43px">
+							
+							<form class="search-form search-form--horizontal" method="get" action="<?php echo esc_url( home_url( '/' ) ) ?>">
+								<div class="search-form__input-wrap">
+									<input style="height:30px;position:absolute;top:0;left:0;background:none;border:none;" type="text" name="s" class="search-form__input" placeholder="输入关键词进行搜索..." value="">
+								</div>
+								<div class="search-form__submit-wrap" style="display:block;position:absolute;top:0;right:0">
+									<button type="submit" style="padding:0;position:absolute;top:8px;right:8px;" class="search-form__submit btn btn-primary"><i class="iconfont" style="position:absolute;top:0px;right:11px">&#xe67a;</i></button>
+								</div>
+							</form>
+						</a>
+					</div>
 					<div class="wel-item has-sub-menu">
 						<a href="<?php echo home_url('/user') ?>">
 							<?php echo _get_user_avatar( $current_user->user_email, true, 50); ?><span class="wel-name"><?php echo $current_user->display_name ?></span>
@@ -91,11 +126,11 @@
 			<?php _the_menu('nav'); ?>
 		</div>
 
-		<div class="m-navbar-start"><i class="iconfont">&#xe648;</i></div>
+		<div class="m-navbar-start"><i class="iconfont" style="margin-right:6px;font-size:18px">&#xe648;</i>更多分类</div>
 		<div class="m-wel-start"><i class="iconfont">&#xe66b;</i></div>
 		<div class="m-mask"></div>
 	</div>
-	<div id="header-search-dropdown" class="header-search-dropdown ajax-search is-in-navbar js-ajax-search">
+	<div id="header-search-dropdown" style="display:none" class="header-search-dropdown ajax-search is-in-navbar js-ajax-search">
 		<div class="container container--narrow">
 			<form class="search-form search-form--horizontal" method="get" action="<?php echo esc_url( home_url( '/' ) ) ?>">
 				<div class="search-form__input-wrap">
@@ -116,4 +151,12 @@
 <!-- 加载页面动画效果 -->
 <script type="text/javascript">
 	$(document).ready(function() { NProgress.start(); $(window).load(function() { NProgress.done(); }); });
+	(function() {
+		$(document).ready(function() {
+			$(document).on('click','.vipImg',function() {
+				window.location.href='https://weidian.com/item.html?itemID=2582634581&spider_token=10e9';
+			})
+		})
+	})();
 </script>
+
