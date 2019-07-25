@@ -37,8 +37,8 @@
 	<div class="container_header">
 		<h1 class="logo">
 			<a href="<?php echo esc_url(home_url('/')); ?>" rel="home" style="position: relative;">
-				<img src="<?php echo _hui_img('header_logo'); ?>">
-				<span style="display: block;font-size: 14px;color: #fff;position: absolute;bottom: 0">视频制作大叔资源网</span>
+				<img src="<?php echo _hui_img('header_logo'); ?>" style="margin-bottom:18px;">
+				<span style="display: block;font-size: 14px;color: #fff;position: absolute;bottom: -45px;left:-34px;width:150px">视频制作大叔资源网</span>
 			</a>
 		</h1>
 		
