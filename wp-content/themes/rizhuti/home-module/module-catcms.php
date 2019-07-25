@@ -1,4 +1,6 @@
 <!-- 分类楼层CMS一 -->
+<div class='vipImg' style="width:100%;height:135px;background: url(http://spzzds.wuyiyizhan.com/wp-content/uploads/2019/07/22bb3e1b8426299.png);line-height:90px;overflow:hidden;margin:40px auto 0 auto;background-repeat: no-repeat;background-position: center center;"></div>
+
 <?php 
 if ((!$paged || $paged===1)) { 
 $module_catcms = (_hui( 'catcms' )) ? _hui( 'catcms' ) : [] ;
@@ -44,4 +46,5 @@ $module_catcms = (_hui( 'catcms' )) ? _hui( 'catcms' ) : [] ;
 			<?php } ?>	
 	<?php } ?>
 <?php } ?>
+
 <!-- 分类楼层一end -->
