@@ -221,7 +221,7 @@
      .row .col.pull-m12{right:100%;}
      .row .col.push-m12{left:100%;}
 
-     .header{min-width: 1200px;margin: 0 auto;}
+     .header{min-width: 1250px;margin: 0 auto;}
  }
  @media only screen and (min-width:1024px){.row .col.l1{width:8.33333%;margin-left:auto;left:auto;right:auto;}
      .row .col.l2{width:16.66667%;margin-left:auto;left:auto;right:auto;}
