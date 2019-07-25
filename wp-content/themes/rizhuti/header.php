@@ -18,13 +18,24 @@
 <script>
 	(function() {
 		//控制侧边栏的二维码
+		//微信二维码显示
 		$('body').on('mouseover','#csbwfs-li-a',function(event) {
 			$('.pos_img').attr('style','display:block !important');
 			return false;
 			
 		});
+		//微店跳转二维码
+		$('body').on('mouseover','#csbwfs-fb',function() {
+			$('.wd_img').attr('style','display:block !important');
+			return false;
+		});
 		$('body').on('mouseout','#csbwfs-li-a',function(event) {
 			$('.pos_img').attr('style','display:none !important');
+			event.stopPropagation();
+			return false;
+		});
+		$('body').on('mouseout','#csbwfs-fb',function(event) {
+			$('.wd_img').attr('style','display:none !important');
 			event.stopPropagation();
 			return false;
 		});
