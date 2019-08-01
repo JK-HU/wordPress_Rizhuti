@@ -1,5 +1,5 @@
 <!-- 分类楼层CMS一 -->
-<div class='vipImg' style="width:100%;height:135px;background: url(http://spzzds.wuyiyizhan.com/wp-content/uploads/2019/07/232059cb5361a93.jpg);line-height:90px;overflow:hidden;margin:40px auto 0 auto;background-repeat: no-repeat;background-position: center center;"></div>
+<div class='vipImg' onclick="location.href='https://weidian.com/item.html?itemID=2582634581&wfr=c&ifr=itemdetail&spider_token=a692'" style="width:59%;height:135px;background: url(http://spzzds.wuyiyizhan.com/wp-content/uploads/2019/08/232059cb5361a93.jpg);line-height:90px;overflow:hidden;margin:40px auto 0 auto;background-repeat: no-repeat;background-position: center center;"></div>
 
 <?php 
 if ((!$paged || $paged===1)) { 
