@@ -436,9 +436,9 @@
  .m-wel .m-wel-login{margin-top:30%;text-align:center}
  .m-wel .m-wel-login .avatar{display:block;margin:0 auto 30px;width:50px;-webkit-border-radius:50%;border-radius:50%}
  .m-wel .m-wel-login a{display:block;/* margin:0 60px 15px; *//* padding:12px 15px; */-webkit-border-radius:2px;border-radius:2px;}
- .m-wel .m-wel-login a.m-wel-login{background-color:#0ae;color:#000;}
+ .m-wel .m-wel-login a.m-wel-login{background-color:#6093de !important;color:#fff;}
  .m-wel .m-wel-login a.m-wel-login:hover{background-color:#0098d5}
- .m-wel .m-wel-login a.m-wel-register{background-color:#F6F9FA;color: #000}
+ .m-wel .m-wel-login a.m-wel-register{background-color:#6093de;color: #fff}
  .m-wel .m-wel-login a.m-wel-register:hover{background-color:#eceeef}
  .m-wel-on{position:fixed;top:0;right:0;bottom:0;left:0;overflow:hidden;-webkit-transform:translateX(-80%);transform:translateX(-80%)}
  .m-wel-on .m-mask{visibility:visible;opacity:1}
@@ -530,7 +530,7 @@
  .sign-links a:last-child:after{display: none}
  .captcha-clk.inline{display: inline-block; position: absolute; right: 0; top: 0; padding: 6px 15px; border-left: 1px solid #d2d8d8; top: 50%; bottom: auto; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); font-size: 14px; font-size: .875rem; color: #343642; cursor: pointer;}
  @media (max-width: 768px){.page-template-login>.header{display: block;} .sign-bg{display: none} .sign-container{position: relative; left: 0; top: 0; -webkit-transform: translate(0, 0); -ms-transform: translate(0, 0); transform: translate(0, 0); margin: 30px auto; max-width: 80%} .sign-container header{display: none} .sign-links{display: none}}
- @media (max-width: 544px){.sign-container{margin:0 0 10px; width: 100%; max-width: 100%; box-shadow: none; padding: 30px 15px 0} .sign-container h1{margin-bottom: 30px; font-size: 18px; font-weight: bold; color: #4e585a} .sign-container footer{margin: 0; padding: 20px 0; background-color: transparent; border-top-color: #f6f6f6} .sign-submit{margin-bottom: 20px} .sign-tips,.sign-tips-show{bottom: 0} .sign-form .item{margin-bottom: 20px}}
+ @media (max-width: 544px){.sign-container{margin:0 0 10px; width: 96%; margin:0 auto;max-width: 100%; box-shadow: none; padding: 30px 15px 0} .sign-container h1{margin-bottom: 30px; font-size: 18px; font-weight: bold; color: #4e585a} .sign-container footer{margin: 0; padding: 20px 0; background-color: transparent; border-top-color: #f6f6f6} .sign-submit{margin-bottom: 20px} .sign-tips,.sign-tips-show{bottom: 0} .sign-form .item{margin-bottom: 20px}}
  
  .home2{margin:0 auto;background-color:#001427;color:#fff;text-align:center;padding: 20px 0;background-position: center center;background-size: cover;background-repeat: repeat;background-attachment: fixed;font-size: 1rem;}
  .home2 h3{margin-bottom:0;padding:1.8rem;color:#fff;text-align:center}
