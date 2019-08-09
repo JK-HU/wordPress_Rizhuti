@@ -9,13 +9,14 @@ global $current_user;
 				</div>
 				<div class="vip-item form">
 
-					<label for="type1" class="radio-box v1">
-						<p><img src="<?php echo get_stylesheet_directory_uri() . '/img/vp1.png' ?>"></p>
+					<!-- <label for="type1" class="radio-box v1">
+						<p><img src="<?php //echo get_stylesheet_directory_uri() . '/img/vp1.png' ?>"></p>
 						<div class="tips-box"><span>包月VIP</span></div>
-						<div class="dec"><?php echo _hui('vip_options')['vip_price_31_desc']; ?></div>
+						<div class="dec"><?php //echo _hui('vip_options')['vip_price_31_desc']; ?></div>
 					    <input type="radio" checked="checked" name="order_type" value="2" id="type1" />
-					    <span class="radio-style">包月￥<?php echo _hui('vip_options')['vip_price_31']; ?></span>
-					</label>
+					    <span class="radio-style">包月￥<?php //echo _hui('vip_options')['vip_price_31']; ?></span>
+					</label> -->
+					
 					<label for="type2" class="radio-box v2">
 						<p><img src="<?php echo get_stylesheet_directory_uri() . '/img/vp2.png' ?>"></p>
 						<div class="tips-box"><span>包年VIP</span></div>
@@ -48,33 +49,34 @@ global $current_user;
 					        <ul class="faq-list" id="R_faqList">
 					        	<li class="item">
 					                <div class="hd">
-					                    <strong>开通VIP的十万个好处？</strong>
+					                    <strong>Q：视频制作大叔资源库是什么？</strong>
 					                </div>
-					                <div class="bd">开通VIP第99999个好处就是有排面！</div>
+					                <div class="bd">A：视频制作大叔资源库，是一个汇聚全网素材、软件、插件、教程、预设、模板等资源的学习社群，致力于打造超优质的传媒类资源共享平台。 资源库不仅对国内外各大网站内最优质的部分进行整合，同时也会推出大量优质的原创内容。在这里你将不仅可以免费获取各种传媒类优质资源，
+还能和志同道合的小伙伴交流讨论，更有行业大神带你飞，让你分分钟晋升行业精英！走上人生巅峰！</div>
 					            </li>
 					            <li class="item">
 					                <div class="hd">
-					                    <strong>VIP资源需要单独购买吗？</strong>
+					                    <strong>Q：如何加入视频制作大叔资源库？</strong>
 					                </div>
-					                <div class="bd">本站所有资源，针对不同等级VIP免，可直接下载。</div>
+					                <div class="bd">A：可以在网站和视频制作大叔微店购买，也可以直接转给大叔哦；（大叔微信：13761315792）</div>
 					            </li>
 					            <li class="item">
 					                <div class="hd">
-					                    <strong>VIP会员是否无限次下载资源？</strong>
+					                    <strong>Q：资源怎么获取？</strong>
 					                </div>
-					                <div class="bd">在遵守VIP会员协议前提下，VIP会员在会员有效期内可以任意下载所有免费和VIP资源。</div>
+					                <div class="bd">A: 加入资源库后，即可通过后台验证，注册为网站会员，所有资源都可以查看，并通过百度云盘下载链接下载；</div>
 					            </li>
 					            <li class="item">
 					                <div class="hd">
-					                    <strong>是否可以与他人分享VIP会员账号？</strong>
+					                    <strong>Q：资源是永久的么？</strong>
 					                </div>
-					                <div class="bd">一个VIP账号仅限一个人使用，禁止与他人分享账号。</div>
+					                <div class="bd">A: 资源是不仅可以永久免费获取，而且资源还是源源不断免费更新的哦。</div>
 					            </li>
 					            <li class="item">
 					                <div class="hd">
-					                    <strong>是否可以申请退款？</strong>
+					                    <strong>Q：为什么要收费？</strong>
 					                </div>
-					                <div class="bd">VIP会员属于虚拟服务，付款后不能够申请退款。如付钱前有任何疑问，联系站长处理</a></div>
+					                <div class="bd">A: 因为建立这样一个庞大资源共享平台，需要不断购买整合大量的资源，而这是需要大量的资金和精力的。资源库不是以营利为目的，收费的费用仅作为赞助我们，不是资源本身的价格！</a></div>
 					            </li>
 					        </ul>
 					    </div>
